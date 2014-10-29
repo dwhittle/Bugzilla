@@ -1,0 +1,58 @@
+We have a simple process that utilizes the GitHub and Github Issues:
+1.Sign or be added to an existing Contributor License Agreement (CLA).
+2.Sign up or login to your GitHub account 
+3.Fork the repository on GitHub
+4.Reporting an issue or making a feature request here.
+5.Adding features or fixing bugs
+6.Create a Github Pull Request 
+7.Do Code Review with the CA Release Automation Engineering Team or CA Release Automation Core Committers on the pull request.
+
+ CA Release Automation Pull Requests
+
+CA Release Automation is enterprise grade software. We strive to ensure high quality throughout the CA Release Automation experience. In order to ensure this, we require a couple of things for all pull requests to CA Release Automation:
+
+Tests: To ensure high quality code and protect against future regressions, we require all the code in CA Release Automation to have at least unit test coverage. See the spec/unit
+
+In addition to this it would be nice to include the description of the problem you are solving with your change. You can use CA Release Automation Issue Template in the description section of the pull request.
+
+ CA Release Automation Code Review Process
+
+The CA Release Automation Code Review process happens on Github pull requests. See this article if you're not familiar with Github Pull Requests.
+
+Once you a pull request, the CA Release Automation Engineering Team or CA Release Automation Core Committers will review your code and respond to you with any feedback they might have. The process at this point is as follows:
+1.2 thumbs-ups are required from the CA Release Automation Engineering Team or CA Release Automation Core Committers for all merges.
+2.When ready, your pull request will be tagged with label  Ready For Merge .
+3.Your patch will be merged into  master  including necessary documentation updates and you will be included in  CHANGELOG.md . Our goal is to have patches merged in 4 weeks after they are marked to be merged.
+
+ Developer Office Hours
+
+We hold regular "office hours" on CA Communities that you can join to review contributions together, ask questions about contributing, or just hang out with CA Release Automation Software employees. The regularly scheduled CA Release Automation hangouts occur on Mondays and Wednesdays at 3pm Eastern / Noon Pacific.
+
+Contributor License Agreement (CLA)
+
+Licensing is very important to open source projects. It helps ensure the software continues to be available under the terms that the author desired.
+
+CA Release Automation uses the Eclipse 1.0 license to strike a balance between open contribution and allowing you to use the software however you would like to.
+
+The license tells you what rights you have that are provided by the copyright holder. It is important that the contributor fully understands what rights they are licensing and agrees to them. Sometimes the copyright holder isn't the contributor, most often when the contributor is doing work for a company.
+
+To make a good faith effort to ensure these criteria are met, CA Release Automation requires an Conributor License Agreement (CLA) for contributions. This agreement helps ensure you are aware of the terms of the license you are contributing your copyrighted works under, which helps to prevent the inclusion of works in the projects that the contributor does not hold the rights to share.
+
+It only takes a few minutes to complete a CLA.
+
+You can complete our: CLA online.
+
+CA Release Automation Obvious Fix Policy
+
+Small contributions such as fixing spelling errors, where the content is small enough to not be considered intellectual property, can be submitted by a contributor as a patch, without a CLA.
+
+As a rule of thumb, changes are obvious fixes if they do not introduce any new functionality or creative thinking. As long as the change does not affect functionality, some likely examples include the following:
+•Spelling / grammar fixes
+•Typo correction, white space and formatting changes
+•Comment clean up
+•Bug fixes that change default return values or error codes stored in constants
+•Adding logging messages or debugging output
+•Changes to ‘metadata’ files like Gemfile, .gitignore, build scripts, etc.
+•Moving source files from one directory or package to another
+
+Whenever you invoke the “obvious fix” rule, please say so in your commit message:
