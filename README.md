@@ -1,4 +1,4 @@
-# CA RELEASE AUTOMATION ACTION PACK FOR Bugzilla
+# CA RELEASE AUTOMATION ACTION PACK FOR NGINX
 
 ## PLATFORMS
 
@@ -6,7 +6,7 @@ Actions in this pack are developed for:
 
 - CA Release Automation 4.7 and later
 
-- Bugzilla x.y.z and later.
+- Nginx x.y.z and later.
 
 ## CHANGELOG
 
@@ -47,6 +47,9 @@ If you plan to contribute your changes, you need to read the **CONTRIBUTING.md**
 ## LICENSE
 
 Please review the **LICENSE** file in this repository.
+
+
+
 
 
 
